@@ -1,0 +1,96 @@
+    * {
+              box-sizing: border-box;
+            }
+        
+            body {
+              margin: 0;
+              padding: 0;
+              font-family: 'Poppins', sans-serif;
+              background: linear-gradient(120deg, #667eea, #764ba2);
+              color: #fff;
+              display: flex;
+              justify-content: center;
+              align-items: flex-start;
+              min-height: 100vh;
+              padding: 2rem;
+            }
+        
+            .container {
+              background: rgba(255, 255, 255, 0.1);
+              padding: 2rem;
+              border-radius: 12px;
+              box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+              width: 100%;
+              max-width: 600px;
+            }
+        
+            h1, h2 {
+              text-align: center;
+            }
+        
+            form {
+              margin-top: 1rem;
+            }
+        
+            input {
+              width: 100%;
+              padding: 10px;
+              margin-top: 8px;
+              margin-bottom: 16px;
+              border: none;
+              border-radius: 8px;
+              font-size: 16px;
+            }
+        
+            button {
+              width: 100%;
+              padding: 12px;
+              background-color: #ffffff;
+              color: #333;
+              font-weight: bold;
+              border: none;
+              border-radius: 8px;
+              font-size: 16px;
+              cursor: pointer;
+              transition: all 0.3s ease;
+            }
+        
+            button:hover {
+              background-color: #ffd369;
+              transform: translateY(-2px);
+            }
+        
+            ul {
+              list-style-type: none;
+              padding: 0;
+              margin-top: 1rem;
+            }
+        
+            li {
+              background-color: rgba(255, 255, 255, 0.15);
+              padding: 10px;
+              margin-bottom: 10px;
+              border-radius: 8px;
+              transition: background-color 0.3s ease;
+            }
+        
+            li:hover {
+              background-color: rgba(255, 255, 255, 0.25);
+            }
+        
+            a {
+              color: #ffd369;
+              text-decoration: none;
+              word-break: break-all;
+            }
+        
+            @media (max-width: 600px) {
+              .container {
+                padding: 1rem;
+              }
+        
+              input, button {
+                font-size: 14px;
+              }
+            }
+          
